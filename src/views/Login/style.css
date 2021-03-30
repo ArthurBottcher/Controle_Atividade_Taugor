@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+.app {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.card {
+    width: 60%;
+    height: 80vh;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #f5f6fa;
+    box-shadow: 9px 6px 18px -4px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 8px 0;
+    font-size: 15px;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 24px;
+    width: 528px;
+    height: 56px;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #28f5be;
+}
+
+button.primary {
+    margin: 8px 0;
+    width: 264px;
+    height: 52px;
+    padding: 16px 8px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #28f5be;
+    border-radius: 6px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+button.primary:hover {
+    box-shadow: 0px 11px 16px rgba(40, 245, 190, 0.2);
+}
+
+p.secondary {
+    color: #483af2;
+    cursor: pointer;
+}

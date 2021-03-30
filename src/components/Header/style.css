@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    padding-left: 16px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Kiwi Maru", serif;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logout-button {
+    height: 40px;
+    min-width: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px;
+    color: red;
+    background-color: transparent;
+    border: unset;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.logout-button:hover {
+    opacity: 0.7;
+}
